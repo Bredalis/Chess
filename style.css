@@ -1,0 +1,45 @@
+
+*{
+	text-align: center;
+}
+
+body{
+	background: #bcb8b1;
+}
+
+div{
+	display: block;
+	float: left;
+}
+
+.chess{
+	width: 800px;
+	height: 600px;
+	margin-left: 250px;
+}
+
+.chess div div{
+	width: 100px;
+	height: 80px;
+} 
+
+.chess div:nth-child(odd) div:nth-child(odd){
+	background: white;
+}
+
+.chess div:nth-child(odd) div:nth-child(even){
+	background: black;
+}
+
+.chess div:nth-child(even) div:nth-child(even){
+	background: white;
+}
+
+.chess div:nth-child(even) div:nth-child(odd){
+	background: black;
+}
+
+img{
+	width: 30%;
+	margin-top: 20px;
+}
